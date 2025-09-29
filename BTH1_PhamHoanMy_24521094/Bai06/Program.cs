@@ -80,6 +80,7 @@ class Program
                 arr[i,j] = rand.Next(-100, 100);
             }
         }
+
     }
     static bool isEmpty(int n, int m)
     {
@@ -199,18 +200,18 @@ class Program
         }
         PrintArr(res, n - 1, m);
     }
-    static void DelColK(int[,] arr, int n, int m, int k)
+    static int[,] DelColK(int[,] arr, int n, int m, int k)
     {
         if (m <= 0)
         {
             Console.WriteLine("Không xóa được, đã đạt kích thước tôi thiểu!");
-            return;
+            return arr;
         }
 
         if (k < 0 || m <= k)
         {
             Console.WriteLine("Không xóa được, giá trị k nằm ngoài ma trận!");
-            return;
+            return arr;
         }
         int[,] res = new int[n, m-1];
         int jres = 0;
@@ -225,22 +226,36 @@ class Program
             jres++;
         }
 
-        PrintArr(res, n, m - 1);
+        return res;
+
     }
     static void DelMaxCol(int[,] arr, int n, int m)
     {
-        int maxarr = MaxArr(arr, n, m);
+        int[] maxcolArr = new int[n];
+        int maxcolCount = 0;
+        int curCount = 0;
+        int[,] curarr = arr;
+        int maxarr = MaxArr(curarr, n, m);
         for(int j = 0;j < m;j++)
         {
             for(int i = 0;i < n;i++)
             {
-                if (arr[i, j] == maxarr)
+                if (curarr[i, j] == maxarr)
                 {
-                    DelColK(arr, n, m, j);
+                    maxcolArr[maxcolCount] = j;
+                    maxcolCount++;
+                    break;
                 }
             }
         }
 
-        return;
+        for(int i = 0;i < maxcolCount;i++)
+        {
+            curarr = DelColK(curarr, n, m, maxcolArr[i] - curCount);
+            m--;
+            curCount++;
+        }
+        PrintArr(curarr, n, m);
+        return ;
     }
 }

@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{514156ED-5E3B-4BCF-63F6-ED8C7EA7D1D0}|Bai06\\Bai06.csproj|d:\\meox\\code\\csharp\\bth1_phamhoanmy_24521094\\bai06\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{514156ED-5E3B-4BCF-63F6-ED8C7EA7D1D0}|Bai06\\Bai06.csproj|solutionrelative:bai06\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{011CBDDF-8644-CC2E-DA78-1D07E27E540A}|Bai04\\Bai04.csproj|d:\\meox\\code\\csharp\\bth1_phamhoanmy_24521094\\bai04\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{011CBDDF-8644-CC2E-DA78-1D07E27E540A}|Bai04\\Bai04.csproj|solutionrelative:bai04\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,9 +36,22 @@
               "RelativeDocumentMoniker": "Bai06\\Program.cs",
               "ToolTip": "D:\\MEox\\Code\\Csharp\\BTH1_PhamHoanMy_24521094\\Bai06\\Program.cs*",
               "RelativeToolTip": "Bai06\\Program.cs*",
-              "ViewState": "AgIAAEgAAAAAAAAAAAA5wCkAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAAwFQAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T04:01:37.175Z",
+              "WhenOpened": "2025-09-29T15:28:25.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\MEox\\Code\\Csharp\\BTH1_PhamHoanMy_24521094\\Bai04\\Program.cs",
+              "RelativeDocumentMoniker": "Bai04\\Program.cs",
+              "ToolTip": "D:\\MEox\\Code\\Csharp\\BTH1_PhamHoanMy_24521094\\Bai04\\Program.cs",
+              "RelativeToolTip": "Bai04\\Program.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAywC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T04:26:16.028Z",
               "EditorCaption": ""
             }
           ]
