@@ -20,12 +20,11 @@ class Program
         PrintList(dd, mm, yy);
     }
     static void PrintList(int dd, int mm, int yy)
-    {
-        int keyres = DayOfWeek(dd, mm, yy);
-        string[] resArr = { "chủ nhật", "thứ hai", "thứ ba", "thứ tư", "thứ năm", "thứ sáu", "thứ bảy", "không hợp lệ" };
-        
+    {   
         Console.WriteLine("-------------------------------------------------------------");
         Console.WriteLine("Chọn mốc 1/1/1 là thứ 2 :v");
+        int keyres = DayOfWeek(dd, mm, yy);
+        string[] resArr = { "chủ nhật", "thứ hai", "thứ ba", "thứ tư", "thứ năm", "thứ sáu", "thứ bảy", "không hợp lệ" };
         Console.WriteLine("1: Ngày " + dd + "/" + mm + "/" + yy + " là ngày " + resArr[keyres]);
         Console.WriteLine("-------------------------------------------------------------");
     }

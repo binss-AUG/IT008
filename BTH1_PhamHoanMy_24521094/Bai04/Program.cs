@@ -20,7 +20,15 @@ class Program
     static void PrintList(int mm, int yy)
     {
         Console.WriteLine("-------------------------------------------------------------");
-        Console.WriteLine("1: Tháng " + mm + "/" + yy + " co " + DaysOfMonth(mm, yy) + " ngày");
+        int _res = DaysOfMonth(mm, yy);
+        if (_res == -1)
+        {
+            Console.WriteLine("1: Tháng " + mm + "/" + yy + " " + " không hợp lệ!");
+        }
+        else
+        {
+            Console.WriteLine("1: Tháng " + mm + "/" + yy + " co " + DaysOfMonth(mm, yy) + " ngày");
+        }
         Console.WriteLine("-------------------------------------------------------------");
     }
     static bool isLeap(int yy)

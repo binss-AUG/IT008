@@ -1,0 +1,15 @@
+D:\MEox\Code\Csharp\BTH1_PhamHoanMy_24521094\Bai06\bin\Debug\net8.0\Bai06.exe
+D:\MEox\Code\Csharp\BTH1_PhamHoanMy_24521094\Bai06\bin\Debug\net8.0\Bai06.deps.json
+D:\MEox\Code\Csharp\BTH1_PhamHoanMy_24521094\Bai06\bin\Debug\net8.0\Bai06.runtimeconfig.json
+D:\MEox\Code\Csharp\BTH1_PhamHoanMy_24521094\Bai06\bin\Debug\net8.0\Bai06.dll
+D:\MEox\Code\Csharp\BTH1_PhamHoanMy_24521094\Bai06\bin\Debug\net8.0\Bai06.pdb
+D:\MEox\Code\Csharp\BTH1_PhamHoanMy_24521094\Bai06\obj\Debug\net8.0\Bai06.GeneratedMSBuildEditorConfig.editorconfig
+D:\MEox\Code\Csharp\BTH1_PhamHoanMy_24521094\Bai06\obj\Debug\net8.0\Bai06.AssemblyInfoInputs.cache
+D:\MEox\Code\Csharp\BTH1_PhamHoanMy_24521094\Bai06\obj\Debug\net8.0\Bai06.AssemblyInfo.cs
+D:\MEox\Code\Csharp\BTH1_PhamHoanMy_24521094\Bai06\obj\Debug\net8.0\Bai06.csproj.CoreCompileInputs.cache
+D:\MEox\Code\Csharp\BTH1_PhamHoanMy_24521094\Bai06\obj\Debug\net8.0\Bai06.sourcelink.json
+D:\MEox\Code\Csharp\BTH1_PhamHoanMy_24521094\Bai06\obj\Debug\net8.0\Bai06.dll
+D:\MEox\Code\Csharp\BTH1_PhamHoanMy_24521094\Bai06\obj\Debug\net8.0\refint\Bai06.dll
+D:\MEox\Code\Csharp\BTH1_PhamHoanMy_24521094\Bai06\obj\Debug\net8.0\Bai06.pdb
+D:\MEox\Code\Csharp\BTH1_PhamHoanMy_24521094\Bai06\obj\Debug\net8.0\Bai06.genruntimeconfig.cache
+D:\MEox\Code\Csharp\BTH1_PhamHoanMy_24521094\Bai06\obj\Debug\net8.0\ref\Bai06.dll
