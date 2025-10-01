@@ -168,7 +168,7 @@ class Program
         {
             for (int j = 0; j < m; j++)
             {
-                if ( !isPrime(Math.Abs(arr[i, j])) ) sum += arr[i,j];
+                if ( !isPrime(arr[i, j]) ) sum += arr[i,j];
             }
         }
 
