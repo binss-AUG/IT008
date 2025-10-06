@@ -11,8 +11,12 @@ class Program
     {
         Console.OutputEncoding = Encoding.Unicode;
         Console.Write("Nhập vào giá trị n: ");
-        int n = int.Parse(Console.ReadLine());
-
+        int n = isInt(Console.ReadLine());
+        if (n <= 0)
+        {
+            Console.WriteLine("Chỉ số n không hợp lệ!");
+            return;
+        }
         PrintList(n);
     }
     static void PrintList(int n)
@@ -20,6 +24,25 @@ class Program
         Console.WriteLine("-------------------------------------------------------------");
         Console.WriteLine("1: Tính tổng các số nguyên tố bé hơn n: " + SumPrimeLessN(n));
         Console.WriteLine("-------------------------------------------------------------");
+    }
+    static int isInt(string s)
+    {
+        string maxVal = "1000000";
+
+        if (maxVal.Length < s.Length) return -1;
+        if (maxVal.Length == s.Length)
+        {
+            for(int i = 0;i < maxVal.Length;i++)
+            {
+                if (maxVal[i] < s[i]) return -1;
+            }
+        }
+        for (int i = 0; i < s.Length; i++)
+        {
+            if (!('0' <= s[i] && s[i] <= '9')) return -1;
+        }
+
+        return int.Parse(s);
     }
     static bool isPrime(int n)
     {

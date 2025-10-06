@@ -11,14 +11,18 @@ class Program
     {
         Console.OutputEncoding = Encoding.Unicode;
         Console.Write("Nhập vào kích thước dòng của mảng: ");
-        int n = int.Parse(Console.ReadLine());
+        int n = isInt(Console.ReadLine());
 
         Console.Write("Nhập vào kích thước cột của mảng: ");
-        int m = int.Parse(Console.ReadLine());
+        int m = isInt(Console.ReadLine());
 
         Console.Write("Nhập vào số thứ tự k là dòng cần xóa : ");
-        int k = int.Parse(Console.ReadLine());
-
+        int k = isInt(Console.ReadLine());
+        if(n  <= 0 || m <= 0 || k <= -1)
+        {
+            Console.WriteLine("Chỉ số vừa nhập không hợp lệ!");
+            return;
+        }
         int[,] arr = new int[n,m];
 
         InputArr(arr, n, m);
@@ -52,6 +56,25 @@ class Program
 
         Console.WriteLine("-------------------------------------------------------------");
     }
+    static int isInt(string s)
+    {
+        string maxVal = "1000000";
+
+        if (maxVal.Length < s.Length) return -1;
+        if (maxVal.Length == s.Length)
+        {
+            for (int i = 0; i < maxVal.Length; i++)
+            {
+                if (maxVal[i] < s[i]) return -1;
+            }
+        }
+        for (int i = 0; i < s.Length; i++)
+        {
+            if (!('0' <= s[i] && s[i] <= '9')) return -1;
+        }
+
+        return int.Parse(s);
+    }
     static void PrintArr(int[,] arr, int n, int m)
     {
         if (isEmpty(n,m))
@@ -80,7 +103,6 @@ class Program
                 arr[i,j] = rand.Next(-100, 100);
             }
         }
-
     }
     static bool isEmpty(int n, int m)
     {
@@ -121,7 +143,6 @@ class Program
                 min = Math.Min(min, arr[i,j]);
             }
         }
-
         return min;
     }
     static int SumRow(int[,] arr, int n, int m)

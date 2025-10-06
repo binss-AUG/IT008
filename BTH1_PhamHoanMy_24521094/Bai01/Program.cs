@@ -11,8 +11,12 @@ class Program
     {
         Console.OutputEncoding = Encoding.Unicode;
         Console.Write("Nhập vào kích thước n của mảng: ");
-        int n = int.Parse(Console.ReadLine());
-
+        int n = isInt(Console.ReadLine());
+        if (n <= 0)
+        {
+            Console.WriteLine("Chỉ số n không hợp lệ!");
+            return;
+        }
         int[] arr = new int[n];
 
         InputArr(arr, n);
@@ -27,6 +31,27 @@ class Program
         Console.WriteLine("2: Đếm số nguyên tố trong mảng: " + PrimeCount(arr, n));
         Console.WriteLine("3: Tìm số chính phương nhỏ nhất (nếu không có hàm trả về -1): " + MinSquareNum(arr,n));
         Console.WriteLine("-------------------------------------------------------------");
+    }
+    static int isInt(string s)
+    {
+        string maxVal = "1000000";
+
+        if (maxVal.Length < s.Length) return -1;
+        if (maxVal.Length == s.Length)
+        {
+            for (int i = 0; i < maxVal.Length; i++)
+            {
+                if (maxVal[i] < s[i]) return -1;
+            }
+        }
+        for (int i = 0; i < s.Length; i++)
+        {
+            if (s[i] == '.') return -1;
+            if (s[i] == '-') return -1;
+            if (!('0' <= s[i] && s[i] <= '9')) return -1;
+        }
+
+        return int.Parse(s);
     }
     static void InputArr(int[] arr, int n)
     {

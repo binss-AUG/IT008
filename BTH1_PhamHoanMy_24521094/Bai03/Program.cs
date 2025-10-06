@@ -11,11 +11,11 @@ class Program
     {
         Console.OutputEncoding = Encoding.Unicode;
         Console.Write("Nhập vào ngày: ");
-        int dd = int.Parse(Console.ReadLine());
+        int dd = isInt(Console.ReadLine());
         Console.Write("Nhập vào tháng: ");
-        int mm = int.Parse(Console.ReadLine());
+        int mm = isInt(Console.ReadLine());
         Console.Write("Nhập vào năm: ");
-        int yy = int.Parse(Console.ReadLine());
+        int yy = isInt(Console.ReadLine());
 
         PrintList(dd,mm,yy);
     }
@@ -25,6 +25,25 @@ class Program
         Console.WriteLine("-------------------------------------------------------------");
         Console.WriteLine("1: Ngày " + dd + "/" + mm + "/" + yy + " " + res + " hợp lệ!");
         Console.WriteLine("-------------------------------------------------------------");
+    }
+    static int isInt(string s)
+    {
+        string maxVal = "1000000";
+
+        if (maxVal.Length < s.Length) return -1;
+        if (maxVal.Length == s.Length)
+        {
+            for (int i = 0; i < maxVal.Length; i++)
+            {
+                if (maxVal[i] < s[i]) return -1;
+            }
+        }
+        for (int i = 0; i < s.Length; i++)
+        {
+            if (!('0' <= s[i] && s[i] <= '9')) return -1;
+        }
+
+        return int.Parse(s);
     }
     static bool isLeap(int yy)
     {
