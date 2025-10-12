@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\MEox\\Code\\Csharp\\test\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\MEox\\Code\\Csharp\\test\\project1_test\\project1_test\\project1_test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:project1_test\\project1_test\\project1_test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\MEox\\Code\\Csharp\\test\\project1_test\\project1_test\\LoginWindow.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:project1_test\\project1_test\\LoginWindow.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "project1_test.csproj",
+              "DocumentMoniker": "D:\\MEox\\Code\\Csharp\\test\\project1_test\\project1_test\\project1_test.csproj",
+              "RelativeDocumentMoniker": "project1_test\\project1_test\\project1_test.csproj",
+              "ToolTip": "D:\\MEox\\Code\\Csharp\\test\\project1_test\\project1_test\\project1_test.csproj",
+              "RelativeToolTip": "project1_test\\project1_test\\project1_test.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-15T14:17:28.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginWindow.xaml",
+              "DocumentMoniker": "D:\\MEox\\Code\\Csharp\\test\\project1_test\\project1_test\\LoginWindow.xaml",
+              "RelativeDocumentMoniker": "project1_test\\project1_test\\LoginWindow.xaml",
+              "ToolTip": "D:\\MEox\\Code\\Csharp\\test\\project1_test\\project1_test\\LoginWindow.xaml",
+              "RelativeToolTip": "project1_test\\project1_test\\LoginWindow.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-15T14:17:00.386Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
