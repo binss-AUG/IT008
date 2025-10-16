@@ -66,9 +66,9 @@ class Program
 
         SumofDay += (dd % 7);
 
-        for (int i = 1; i < mm; i++) SumofDay += (Date[i] % 7);
+        for (int i = 1; i < mm; i++) SumofDay += (Date[i]);
 
-        SumofDay += yy - 1 + yy / 4 - yy / 100 + yy / 400;
+        SumofDay += (yy - 1) + (yy - 1) / 4 - (yy - 1) / 100 + (yy - 1) / 400;
         //for (int i = 1; i < yy; i++)
         //{
         //    SumofDay += (isLeap(i) ? 2 : 1);
